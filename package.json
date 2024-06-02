@@ -1,0 +1,25 @@
+{
+    "name": "project-webcrawler",
+    "version": "1.0.0",
+    "description": "A webcrawler, analyzes links between pages on a given website",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yehonatal/Project-webcrawler.git"
+    },
+    "author": "Yonatan Afewerk",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Yehonatal/Project-webcrawler/issues"
+    },
+    "homepage": "https://github.com/Yehonatal/Project-webcrawler#readme",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.1.2"
+    }
+}
